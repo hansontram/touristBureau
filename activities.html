@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - Visitor Bureau</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Vacation Resort</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarColor02"
+          aria-controls="navbarColor02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/activities.html">Activity</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="celcius.html">Hiking</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container mt-5">
+      <form action="">
+        <select id="categoryList" class="form-select" name="team">
+            <option value="">Select One</option>
+
+        </select>
+        <select id="activityList" class="form-select mt-4" name="team">
+            <option value="">Select One</option>
+        </select>
+
+
+      </form>
+
+      <div class="m-4 p-4 border" id="details">
+        <div><span id="touristDetail"></span></div>
+      </div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/scripts/activities.js"></script>
+  </body>
+</html>
